@@ -1,668 +1,380 @@
-Contribution: 2021-01-04 00:00
+# [Volt Dashboard Laravel](https://volt-laravel-admin-dashboard.updivision.com/dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=Check%20Volt%20Dashboard%20made%20by%20%40Themesberg%20and%20%40UPDIVISION%20%23webdesign%20%23dashboard%20%23laravel%20%23livewire%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.themesberg.com%2Fproduct%2Flaravel%2Fvolt-pro-admin-dashboard-template)
+## Free Frontend Web App for Laravel with Livewire & Alpine.js
 
-Contribution: 2021-01-04 00:01
+[![version](https://img.shields.io/npm/v/@themesberg/volt-bootstrap-5-dashboard)](https://www.npmjs.com/package/@themesberg/volt-laravel-admin-dashboard)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![GitHub issues open](https://img.shields.io/github/issues/themesberg/volt-laravel-admin-dashboard.svg)](https://github.com/themesberg/volt-laravel-admin-dashboard/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/volt-laravel-admin-dashboard.svg)](https://github.com/themesberg/volt-laravel-admin-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
-Contribution: 2021-01-04 00:02
+[![Volt Laravel Dashboard Preview](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/volt-free-laravel-dashboard.jpg)](https://volt-laravel-admin-dashboard.updivision.com/dashboard)
 
-Contribution: 2021-01-04 00:03
+Never start a development project from scratch again. We've partnered with UPDIVISION to create the ultimate design & development toolbox, free for personal and commercial projects. 
 
-Contribution: 2021-01-04 00:04
+Volt Dashboard Laravel features dozens of handcrafted UI elements tailored for Bootstrap 5 and an out of the box Laravel backend. The Livewire integration allows you to build dynamic interfaces easier without leaving the comfort of your favourite framework. If you combine this even further with Alpine.js, you get the perfect combo for your next big project.    
 
-Contribution: 2021-01-04 00:05
+## Ok, I`m in. So, what am I getting?
 
-Contribution: 2021-01-04 00:06
+You're getting a lean, mean, app-building machine made of:  
 
-Contribution: 2021-01-04 00:07
 
-Contribution: 2021-01-04 00:08
+- 100+ handcrafted UI components tailored for Bootstrap 5 with Vanilla JS. This means buttons, alerts, modals, datepickers and everything in between
+- 11 example pages to get you started 
+- 3 lightweight plugins: datepicker, notification and charts library
+- Sass files & Gulp commands
+- fully-functional authentication system, register and user profile editing features built with Laravel
+- Livewire & Alpine.js integration
 
-Contribution: 2021-01-05 00:00
 
-Contribution: 2021-01-05 00:01
+## Free for personal and commercial projects
 
-Contribution: 2021-01-05 00:02
+Whether you're working on a side project or delivering to a client, with Volt Dashboard Laravel you can do both. Volt Dashboard Laravel is released under MIT license, so you can use it for personal and commercial projects for free. Just start coding.    
 
-Contribution: 2021-01-08 00:00
 
-Contribution: 2021-01-08 00:01
+## Detailed documentation & Gulp commands for an easy workflow
 
-Contribution: 2021-01-08 00:02
 
-Contribution: 2021-01-08 00:03
+We also included detailed documentation for every component and feature so it helps in your development workflow. Plus you will get an advanced development workflow package including Sass files and a Gulp commands file.
 
-Contribution: 2021-01-08 00:04
 
-Contribution: 2021-01-08 00:05
+## Table of Contents
 
-Contribution: 2021-01-08 00:06
+* [Versions](#versions)
+* [Demo](#demo)
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
+* [Upgrade to PRO](#upgrade-to-pro)
+* [Reporting Issues](#reporting-issues)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
 
-Contribution: 2021-01-08 00:07
+## Versions
 
-Contribution: 2021-01-08 00:08
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://themesberg.com/product/dashboard/volt-react)[<img src="https://themesberg.s3.us-east-2.amazonaws.com/public/github/technology/laravel-logo.jpeg" width="60" height="60" />](https://themesberg.com/product/laravel/volt-admin-dashboard-template).
 
-Contribution: 2021-01-11 00:00
+| HTML | React  | Laravel  |
+| --- | ---  | --- |
+| [![Volt Bootstrap 5 Dashboard HTML](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/volt-bootstrap-5-dashboard-preview.jpg)](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) | [![Volt React Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-react-dashboard/thumbnail.png)](https://themesberg.com/product/dashboard/volt-react) | [![Volt Laravel Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/volt-free-laravel-dashboard.jpg)](https://themesberg.com/product/laravel/volt-admin-dashboard-template)
 
-Contribution: 2021-01-11 00:01
+## Laravel
 
-Contribution: 2021-01-11 00:02
+| Sign in | Sign up | Profile | Reset password |
+| --- | --- | --- | --- |
+| [![Sign in](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/sign-in.png)](https://volt-laravel-admin-dashboard.updivision.com/login) | [![Sign up](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/sign-up.png)](https://volt-laravel-admin-dashboard.updivision.com/register) | [<img src = "https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/profile.png" width="87% height = 100%"> ](https://volt-laravel-admin-dashboard.updivision.com/profile) | [![Reset password](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/reset-password.png)](https://volt-laravel-admin-dashboard.updivision.com/forgot-password)
 
-Contribution: 2021-01-11 00:03
+## Demo
 
-Contribution: 2021-01-11 00:04
+| Dashboard | Transactions | Profile | Forms |
+| --- | --- | --- | --- |
+| [![Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/dashboard.png)](https://volt-laravel-admin-dashboard.updivision.com/dashboard) | [![Transactions](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/transactions.png)](https://volt-laravel-admin-dashboard.updivision.com/transactions) | [![Profile](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/profile.png)](https://volt-laravel-admin-dashboard.updivision.com/profile) | [![Forms](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/forms.png)](https://volt-laravel-admin-dashboard.updivision.com/forms)
 
-Contribution: 2021-01-11 00:05
+| Sign in | Sign up | Forgot password | Reset password |
+| --- | --- | --- | --- |
+| [![Sign in](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/sign-in.png)](https://volt-laravel-admin-dashboard.updivision.com/login) | [![Sign up](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/sign-up.png)](https://volt-laravel-admin-dashboard.updivision.com/register) | [![Forgot Password](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/forgot-password.png)](https://volt-laravel-admin-dashboard.updivision.com/forgot-password) | [![Reset password](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/reset-password.png)](https://volt-laravel-admin-dashboard.updivision.com/forgot-password)
 
-Contribution: 2021-01-12 00:00
+| Lock Profile | 404 Not Found | 500 Server Error | Documentation |
+| --- | --- | --- | --- |
+| [![Lock Profile](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/lock.png)](https://volt-laravel-admin-dashboard.updivision.com/lock) | [![404 Not Found](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/400.png)](https://volt-laravel-admin-dashboard.updivision.com/404) | [![500 Server Error](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/500.png)](https://volt-laravel-admin-dashboard.updivision.com/500) | [<img src = "https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/github/documentation.png" width = "85%">](https://volt-laravel-admin-dashboard.updivision.com/documentation/getting-started/overview/index.html)
 
-Contribution: 2021-01-14 00:00
+-   [Live Preview](https://volt-laravel-admin-dashboard.updivision.com/dashboard)
+-   [Details](https://themesberg.com/product/laravel/volt-admin-dashboard-template)
 
-Contribution: 2021-01-14 00:01
+# Installation
 
-Contribution: 2021-01-20 00:00
+## Prerequisites
 
-Contribution: 2021-01-20 00:01
+If you don't already have an Apache local environment with PHP and MySQL, use one of the following links:
 
-Contribution: 2021-01-20 00:02
+ - Windows: https://updivision.com/blog/post/beginner-s-guide-to-setting-up-your-local-development-environment-on-windows
+ - Linux: https://howtoubuntu.org/how-to-install-lamp-on-ubuntu
+ - Mac: https://wpshout.com/quick-guides/how-to-install-mamp-on-your-mac/
 
-Contribution: 2021-01-20 00:03
+Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md
 
-Contribution: 2021-01-20 00:04
+## Laravel
+1. Download the project’s zip then copy and paste volt-dashboard-master folder in your projects folder. Rename the folder to your project’s name
+2. Make sure you have Node and Composer locally installed.
+3.Run the following command in order to download all the project dependencies. `composer install`
+4. In your terminal run `npm install`
+5. Copy `.env.example` to `.env` and updated the configurations (mainly the database configuration)
+6. In your terminal run `php artisan key:generate`
+7. Run `php artisan migrate --seed` to create the database tables and seed the roles and users tables
+8. Run `php artisan storage:link` to create the storage symlink (if you are using **Vagrant** with **Homestead** for development, remember to ssh into your virtual machine and run the command from there).
 
-Contribution: 2021-01-20 00:05
 
-Contribution: 2021-01-20 00:06
+## Usage
 
-Contribution: 2021-01-20 00:07
+Register a user or login using admin@volt.com and secret and start testing the Laravel app (make sure to run the migrations and seeders for these credentials to be available).
+Make sure to run the migrations and seeders for the above credentials to be available.
 
-Contribution: 2021-01-20 00:08
+Make sure to run the migrations and seeders for the above credentials to be available.
 
-Contribution: 2021-01-20 00:09
+Besides the dashboard and the auth pages this application also has an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user.
 
-Contribution: 2021-01-21 00:00
+### Dashboard
 
-Contribution: 2021-01-21 00:01
+You can access the dashboard either by using the "**Dashboard**" link in the left sidebar or by adding **/dashboard** in the URL.
 
-Contribution: 2021-01-21 00:02
 
-Contribution: 2021-01-21 00:03
+### Sign in
 
-Contribution: 2021-01-21 00:04
+You have the option to log in using the email and password. To access this page, just click the "**Page examples/ Sign in**" link in the left sidebar or add **/login** in the URL.
 
-Contribution: 2021-01-21 00:05
+The `app/Http/Livewire/Auth/Login.php` handles the log in process and validation.
 
-Contribution: 2021-01-21 00:06
+```
+   protected $rules = [
+        'email' => 'required|email',
+        'password' => 'required',
+    ];
 
-Contribution: 2021-01-21 00:07
+    public function login()
+    {
+        $credentials = $this->validate();
+        return auth()->attempt($credentials)
+                ? redirect()->intended('/profile')
+                : $this->addError('email', trans('auth.failed'));
+    }
+```
 
-Contribution: 2021-01-22 00:00
+### Sign up
 
-Contribution: 2021-01-22 00:01
+You have the option to register an user using the email and password. To access this page, just click the "**Page examples/ Sign up**" link in the left sidebar or add **/register** in the URL.
 
-Contribution: 2021-01-22 00:02
+The `app/Http/Livewire/Auth/Register.php` handles the register process and validation.
 
-Contribution: 2021-01-22 00:03
+```
+    public function register()
+    {
+        $this->validate([
+            'email' => 'required',
+            'password' => 'required|same:passwordConfirmation|min:6',
+        ]);
 
-Contribution: 2021-01-22 00:04
+        $user = User::create([
+            'email' =>$this->email,
+            'password' => Hash::make($this->password),
+            'remember_token' => Str::random(10),
+        ]);
 
-Contribution: 2021-01-22 00:05
+        auth()->login($user);
 
-Contribution: 2021-01-22 00:06
+        return redirect('/profile');
+    }
+```
+### Forgot password
 
-Contribution: 2021-01-25 00:00
+You have the option to send an email containing the password reset link to an user. To access this page, just click the "**Page examples/ Forgot password**" link in the left sidebar or add **/forgot-password** in the URL.
 
-Contribution: 2021-01-25 00:01
+The `app/Http/Livewire/ForgotPassword.php` handles the email submission process.
 
-Contribution: 2021-01-25 00:02
+```
+    public function recoverPassword() {
+        $this->validate();
+        $user=User::where('email', $this->email)->first();
+        $this->notify(new ResetPassword($user->id));
+        $this->mailSentAlert = true;
+        }
+    }
+```
+
+The `app/Notifications/ResetPassword.php` handles the email submission itself. Here you can edit the overall layout of the email.
+```
+    public function toMail($notifiable)
+    {
+        $url = URL::signedRoute('reset-password', ['id' => $this->token]);
+        return (new MailMessage)
+                    ->subject('Reset your password')
+                    ->line('Hey, did you forget your password? Click the button to reset it.')
+                    ->action('Reset Password', $url)
+                    ->line('Thank you for using our application!');
+    }
+
+```
+
+### Reset password
+
+The email sent through the forgot password process will send the user to an unique link containing the password reset form. To access an example of this page, just click the "**Page examples/ Reset password**" link in the left sidebar or add **/reset-password-example** in the URL.
+
+The `app/Http/Livewire/ResetPassword.php` handles the password reset process and validation.
+
+```
+
+    public function resetPassword() {
+        $this->validate();
+        $existingUser = User::where('email', $this->email)->first();
+        if($existingUser && $existingUser->id == $this->urlId) {
+            $existingUser->update([
+                'password' => Hash::make($this->password)
+            ]);
+            $this->isPasswordChanged = true;
+            $this->wrongEmail = false;
+        }
+        else {
+            $this->wrongEmail = true;
+        }
+    }
+    
+```
+
+### User Profile
+
+You have the option to edit the current logged in user's profile information (name, email, profile picture) and password. To access this page, just click the "**Profile**" link in the left sidebar or add **/profile** in the URL.
+
+The `app/Http/Livewire/Profile.php` handles the update of the user information and password.
+
+```
+    public function mount() { $this->user = auth()->user(); }
+
+    public function save()
+    {
+        $this->validate();
+
+        $this->user->save();
+
+        $this->showSavedAlert = true;
+            
+        }
+    }
+```
 
-Contribution: 2021-01-26 00:00
+If you input the wrong data when editing the profile, don't worry. Validation rules have been added to prevent this.
 
-Contribution: 2021-01-26 00:01
+```
+    protected $rules = [
+        'user.first_name' => 'max:15',
+        'user.last_name' => 'max:20',
+        'user.birthday' => 'date_format:Y-m-d',
+        'user.email' => 'email',
+        'user.phone' => 'numeric',
+        'user.gender' => '',
+        'user.address' => 'max:20',
+        'user.number' => 'numeric',
+        'user.city' => 'max:20',
+        'user.zip' => 'numeric',
+    ];
 
-Contribution: 2021-01-26 00:02
+```
 
-Contribution: 2021-01-26 00:03
 
-Contribution: 2021-01-26 00:04
+## Documentation
+The documentation for Volt is hosted on our [website](https://volt-laravel-admin-dashboard.updivision.com/documentation/getting-started/overview/index.html).
 
-Contribution: 2021-01-27 00:00
+## File Structure
+Within the download you'll find the following directories and files:
 
-Contribution: 2021-01-27 00:01
+```
 
-Contribution: 2021-01-27 00:02
+├── components
+│   ├── buttons.blade.php                       # Buttons page
+│   ├── forms.blade.php                         # Forms page
+│   ├── modals.blade.php                        # Modals page
+│   ├── notifications.blade.php                 # Notifications page
+│   └── typography.blade.php                    # Typography page
+├── dashboard.blade.php                         # Dashboard
+├── layouts
+│   ├── app.blade.php                           # Including layouts based on routes
+│   ├── base.blade.php                          # All the styles and scripts included
+│   ├── footer2.blade.php                       # Footer for pages without sidenav
+│   ├── footer.blade.php                        # Footer for pages with sidenav
+│   ├── nav.blade.php                           # Nav for mobile view 
+│   ├── sidenav.blade.php                       # The sidebar menu
+│   └── topbar.blade.php                        # Search bar, notifications and user area
+├── livewire                                    # All the pages that are using livewire functionality
+│   ├── auth                                    # Handles auth routes (login and register)
+│   │   ├── login.blade.php                     
+│   │   └── register.blade.php
+│   ├── forgot-password.blade.php               # Handles the forgot-password form
+│   ├── logout.blade.php                        # Logout functionality
+│   ├── profile.blade.php                       # Profile page
+│   ├── reset-password.blade.php                # Handles the reset password form
+│   └── users.blade.php                         # Users table
+├── upgrade-to-pro.blade.php                    # Upgrade to pro page
+├── lock.blade.php                              # Lock page
+└── transactions.blade.php                      # Transactions page
+├── 404.blade.php                               # Error 404 page
+├── 500.blade.php                               # Error 500 page
+├── bootstrap-tables.blade.php                  # Bootstrap tables page                
+```
 
-Contribution: 2021-01-27 00:03
+## Browser Support
 
-Contribution: 2021-01-27 00:04
+At present, we officially aim to support the last two versions of the following browsers:
 
-Contribution: 2021-01-27 00:05
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-Contribution: 2021-01-27 00:06
+## Resources
+- Demo: <https://volt-laravel-admin-dashboard.updivision.com/dashboard>
+- Download Page: <https://themesberg.com/product/laravel/volt-admin-dashboard-template>
+- Documentation: <https://volt-laravel-admin-dashboard.updivision.com/documentation/getting-started/overview/index.html>
+- License Agreement: <https://themesberg.com/licensing>
+- Support: <https://themesberg.com/contact>
+- Issues: [Github Issues Page](https://github.com/themesberg/volt-laravel-admin-dashboard/issues)
+- **Dashboards:**
 
-Contribution: 2021-01-29 00:00
+| HTML | React  | Laravel  |
+| --- | ---  | --- |
+| [![Volt Bootstrap 5 Dashboard HTML](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/volt-bootstrap-5-dashboard-preview.jpg)](https://volt-laravel-admin-dashboard.updivision.com/dashboard) | [![Volt React Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-react-dashboard/thumbnail.png)](https://github.com/themesberg/volt-react-dashboard) | [![Volt React Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-laravel-dashboard/volt-free-laravel-dashboard.jpg)](https://github.com/themesberg/volt-laravel-admin-dashboard)
 
-Contribution: 2021-01-29 00:01
+## Change log
 
-Contribution: 2021-01-29 00:02
+Please see the [changelog](CHANGELOG.md) for more information on what has changed recently.
 
-Contribution: 2021-02-01 00:00
 
-Contribution: 2021-02-01 00:01
+## Upgrade to Pro
 
-Contribution: 2021-02-01 00:02
+Take front-end development to the next level by upgrading to the PRO version of Volt Laravel Admin Dashboard featuring over 3 times more components, plugin and pages and 5 times more Laravel features. You also get 6 months of premium support and free updates. Check out [Volt Pro Premium Laravel Admin Dashboard](https://themesberg.com/product/laravel/volt-pro-admin-dashboard-template).
 
-Contribution: 2021-02-03 00:00
+## Reporting Issues
 
-Contribution: 2021-02-03 00:01
+We use GitHub Issues as the official bug tracker for Volt Laravel Admin Dashboard. Here are some advices for our users that want to report an issue:
 
-Contribution: 2021-02-04 00:00
+1. Make sure that you are using the latest version of Volt Laravel Admin Dashboard. Check the CHANGELOG from your dashboard on our [website](https://themesberg.com/docs/volt-laravel-admin-dashboard/getting-started/changelog/).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-Contribution: 2021-02-05 00:00
+## Technical Support or Questions
 
-Contribution: 2021-02-05 00:01
+If you have questions or need help integrating the product please [contact us](https://themesberg.com/contact) instead of opening an issue.
 
-Contribution: 2021-02-05 00:02
+## Licensing
 
-Contribution: 2021-02-05 00:03
+- Copyright 2021 Themesberg (Crafty Dwarf LLC) (https://themesberg.com)
+- Themesberg [license](https://themesberg.com/licensing#mit) (MIT License)
 
-Contribution: 2021-02-05 00:04
+## Useful Links
 
-Contribution: 2021-02-09 00:00
+- [More themes](https://themesberg.com/themes) from Themesberg
+- [Free themes](https://themesberg.com/templates/free) from Themesberg
+- [Bootstrap Themes, Templates & UI Kits](https://themesberg.com/templates/laravel/) from Themesberg
+- [Affiliate Program](https://themesberg.com/affiliate)
 
-Contribution: 2021-02-09 00:01
+## Social Media
 
-Contribution: 2021-02-09 00:02
+### Themesberg
 
-Contribution: 2021-02-09 00:03
+Twitter: <https://twitter.com/themesberg>
 
-Contribution: 2021-02-09 00:04
+Facebook: <https://www.facebook.com/themesberg/>
 
-Contribution: 2021-02-09 00:05
+Dribbble: <https://dribbble.com/themesberg>
 
-Contribution: 2021-02-10 00:00
+Instagram: <https://www.instagram.com/themesberg/>
 
-Contribution: 2021-02-10 00:01
+### Updivision:
 
-Contribution: 2021-02-10 00:02
+Twitter: <https://twitter.com/updivision?ref=pdl-readme>
 
-Contribution: 2021-02-10 00:03
+Facebook: <https://www.facebook.com/updivision?ref=pdl-readme>
 
-Contribution: 2021-02-10 00:04
+Linkedin: <https://www.linkedin.com/company/updivision?ref=pdl-readme>
 
-Contribution: 2021-02-10 00:05
+Updivision Blog: <https://updivision.com/blog/?ref=pdl-readme>
 
-Contribution: 2021-02-10 00:06
+## Credits
 
-Contribution: 2021-02-10 00:07
-
-Contribution: 2021-02-10 00:08
-
-Contribution: 2021-02-15 00:00
-
-Contribution: 2021-02-15 00:01
-
-Contribution: 2021-02-16 00:00
-
-Contribution: 2021-02-16 00:01
-
-Contribution: 2021-02-16 00:02
-
-Contribution: 2021-02-16 00:03
-
-Contribution: 2021-02-16 00:04
-
-Contribution: 2021-02-16 00:05
-
-Contribution: 2021-02-17 00:00
-
-Contribution: 2021-02-17 00:01
-
-Contribution: 2021-02-17 00:02
-
-Contribution: 2021-02-17 00:03
-
-Contribution: 2021-02-17 00:04
-
-Contribution: 2021-02-17 00:05
-
-Contribution: 2021-02-17 00:06
-
-Contribution: 2021-02-17 00:07
-
-Contribution: 2021-02-17 00:08
-
-Contribution: 2021-02-18 00:00
-
-Contribution: 2021-02-18 00:01
-
-Contribution: 2021-02-18 00:02
-
-Contribution: 2021-02-18 00:03
-
-Contribution: 2021-02-19 00:00
-
-Contribution: 2021-02-23 00:00
-
-Contribution: 2021-02-23 00:01
-
-Contribution: 2021-02-23 00:02
-
-Contribution: 2021-02-23 00:03
-
-Contribution: 2021-02-23 00:04
-
-Contribution: 2021-02-23 00:05
-
-Contribution: 2021-02-23 00:06
-
-Contribution: 2021-02-23 00:07
-
-Contribution: 2021-02-24 00:00
-
-Contribution: 2021-02-26 00:00
-
-Contribution: 2021-02-26 00:01
-
-Contribution: 2021-02-26 00:02
-
-Contribution: 2021-02-26 00:03
-
-Contribution: 2021-02-26 00:04
-
-Contribution: 2021-02-26 00:05
-
-Contribution: 2021-03-03 00:00
-
-Contribution: 2021-03-03 00:01
-
-Contribution: 2021-03-03 00:02
-
-Contribution: 2021-03-03 00:03
-
-Contribution: 2021-03-03 00:04
-
-Contribution: 2021-03-03 00:05
-
-Contribution: 2021-03-03 00:06
-
-Contribution: 2021-03-03 00:07
-
-Contribution: 2021-03-04 00:00
-
-Contribution: 2021-03-04 00:01
-
-Contribution: 2021-03-04 00:02
-
-Contribution: 2021-03-04 00:03
-
-Contribution: 2021-03-04 00:04
-
-Contribution: 2021-03-04 00:05
-
-Contribution: 2021-03-04 00:06
-
-Contribution: 2021-03-04 00:07
-
-Contribution: 2021-03-04 00:08
-
-Contribution: 2021-03-04 00:09
-
-Contribution: 2021-03-08 00:00
-
-Contribution: 2021-03-08 00:01
-
-Contribution: 2021-03-08 00:02
-
-Contribution: 2021-03-08 00:03
-
-Contribution: 2021-03-08 00:04
-
-Contribution: 2021-03-08 00:05
-
-Contribution: 2021-03-09 00:00
-
-Contribution: 2021-03-09 00:01
-
-Contribution: 2021-03-11 00:00
-
-Contribution: 2021-03-11 00:01
-
-Contribution: 2021-03-11 00:02
-
-Contribution: 2021-03-11 00:03
-
-Contribution: 2021-03-11 00:04
-
-Contribution: 2021-03-11 00:05
-
-Contribution: 2021-03-11 00:06
-
-Contribution: 2021-03-11 00:07
-
-Contribution: 2021-03-11 00:08
-
-Contribution: 2021-03-11 00:09
-
-Contribution: 2021-03-15 00:00
-
-Contribution: 2021-03-15 00:01
-
-Contribution: 2021-03-15 00:02
-
-Contribution: 2021-03-15 00:03
-
-Contribution: 2021-03-15 00:04
-
-Contribution: 2021-03-15 00:05
-
-Contribution: 2021-03-15 00:06
-
-Contribution: 2021-03-15 00:07
-
-Contribution: 2021-03-15 00:08
-
-Contribution: 2021-03-15 00:09
-
-Contribution: 2021-03-16 00:00
-
-Contribution: 2021-03-16 00:01
-
-Contribution: 2021-03-19 00:00
-
-Contribution: 2021-03-19 00:01
-
-Contribution: 2021-03-19 00:02
-
-Contribution: 2021-03-19 00:03
-
-Contribution: 2021-03-19 00:04
-
-Contribution: 2021-03-19 00:05
-
-Contribution: 2021-03-19 00:06
-
-Contribution: 2021-03-19 00:07
-
-Contribution: 2021-03-19 00:08
-
-Contribution: 2021-03-22 00:00
-
-Contribution: 2021-03-22 00:01
-
-Contribution: 2021-03-22 00:02
-
-Contribution: 2021-03-22 00:03
-
-Contribution: 2021-03-22 00:04
-
-Contribution: 2021-03-22 00:05
-
-Contribution: 2021-03-22 00:06
-
-Contribution: 2021-03-22 00:07
-
-Contribution: 2021-03-22 00:08
-
-Contribution: 2021-03-23 00:00
-
-Contribution: 2021-03-23 00:01
-
-Contribution: 2021-03-23 00:02
-
-Contribution: 2021-03-23 00:03
-
-Contribution: 2021-03-24 00:00
-
-Contribution: 2021-03-24 00:01
-
-Contribution: 2021-03-24 00:02
-
-Contribution: 2021-03-24 00:03
-
-Contribution: 2021-03-24 00:04
-
-Contribution: 2021-03-26 00:00
-
-Contribution: 2021-03-26 00:01
-
-Contribution: 2021-03-26 00:02
-
-Contribution: 2021-03-26 00:03
-
-Contribution: 2021-03-26 00:04
-
-Contribution: 2021-03-26 00:05
-
-Contribution: 2021-03-26 00:06
-
-Contribution: 2021-03-26 00:07
-
-Contribution: 2021-03-29 00:00
-
-Contribution: 2021-03-31 00:00
-
-Contribution: 2021-03-31 00:01
-
-Contribution: 2021-03-31 00:02
-
-Contribution: 2021-03-31 00:03
-
-Contribution: 2021-03-31 00:04
-
-Contribution: 2021-03-31 00:05
-
-Contribution: 2021-03-31 00:06
-
-Contribution: 2021-03-31 00:07
-
-Contribution: 2021-03-31 00:08
-
-Contribution: 2021-04-02 00:00
-
-Contribution: 2021-04-09 00:00
-
-Contribution: 2021-04-09 00:01
-
-Contribution: 2021-04-09 00:02
-
-Contribution: 2021-04-09 00:03
-
-Contribution: 2021-04-09 00:04
-
-Contribution: 2021-04-09 00:05
-
-Contribution: 2021-04-09 00:06
-
-Contribution: 2021-04-09 00:07
-
-Contribution: 2021-04-16 00:00
-
-Contribution: 2021-04-16 00:01
-
-Contribution: 2021-04-16 00:02
-
-Contribution: 2021-04-16 00:03
-
-Contribution: 2021-04-16 00:04
-
-Contribution: 2021-04-16 00:05
-
-Contribution: 2021-04-16 00:06
-
-Contribution: 2021-04-19 00:00
-
-Contribution: 2021-04-19 00:01
-
-Contribution: 2021-04-19 00:02
-
-Contribution: 2021-04-19 00:03
-
-Contribution: 2021-04-19 00:04
-
-Contribution: 2021-04-19 00:05
-
-Contribution: 2021-04-20 00:00
-
-Contribution: 2021-04-22 00:00
-
-Contribution: 2021-04-22 00:01
-
-Contribution: 2021-04-22 00:02
-
-Contribution: 2021-04-22 00:03
-
-Contribution: 2021-04-22 00:04
-
-Contribution: 2021-04-22 00:05
-
-Contribution: 2021-04-22 00:06
-
-Contribution: 2021-04-27 00:00
-
-Contribution: 2021-04-27 00:01
-
-Contribution: 2021-04-27 00:02
-
-Contribution: 2021-04-27 00:03
-
-Contribution: 2021-04-27 00:04
-
-Contribution: 2021-04-28 00:00
-
-Contribution: 2021-04-28 00:01
-
-Contribution: 2021-04-28 00:02
-
-Contribution: 2021-04-28 00:03
-
-Contribution: 2021-04-28 00:04
-
-Contribution: 2021-04-28 00:05
-
-Contribution: 2021-04-28 00:06
-
-Contribution: 2021-05-03 00:00
-
-Contribution: 2021-05-03 00:01
-
-Contribution: 2021-05-03 00:02
-
-Contribution: 2021-05-03 00:03
-
-Contribution: 2021-05-03 00:04
-
-Contribution: 2021-05-03 00:05
-
-Contribution: 2021-05-03 00:06
-
-Contribution: 2021-05-03 00:07
-
-Contribution: 2021-05-03 00:08
-
-Contribution: 2021-05-03 00:09
-
-Contribution: 2021-05-04 00:00
-
-Contribution: 2021-05-04 00:01
-
-Contribution: 2021-05-04 00:02
-
-Contribution: 2021-05-04 00:03
-
-Contribution: 2021-05-04 00:04
-
-Contribution: 2021-05-04 00:05
-
-Contribution: 2021-05-04 00:06
-
-Contribution: 2021-05-04 00:07
-
-Contribution: 2021-05-10 00:00
-
-Contribution: 2021-05-10 00:01
-
-Contribution: 2021-05-10 00:02
-
-Contribution: 2021-05-10 00:03
-
-Contribution: 2021-05-10 00:04
-
-Contribution: 2021-05-10 00:05
-
-Contribution: 2021-05-11 00:00
-
-Contribution: 2021-05-11 00:01
-
-Contribution: 2021-05-11 00:02
-
-Contribution: 2021-05-11 00:03
-
-Contribution: 2021-05-11 00:04
-
-Contribution: 2021-05-13 00:00
-
-Contribution: 2021-05-13 00:01
-
-Contribution: 2021-05-13 00:02
-
-Contribution: 2021-05-13 00:03
-
-Contribution: 2021-05-13 00:04
-
-Contribution: 2021-05-13 00:05
-
-Contribution: 2021-05-13 00:06
-
-Contribution: 2021-05-13 00:07
-
-Contribution: 2021-05-13 00:08
-
-Contribution: 2021-05-13 00:09
-
-Contribution: 2021-05-14 00:00
-
-Contribution: 2021-05-14 00:01
-
-Contribution: 2021-05-17 00:00
-
-Contribution: 2021-05-17 00:01
-
-Contribution: 2021-05-17 00:02
-
-Contribution: 2021-05-17 00:03
-
-Contribution: 2021-05-17 00:04
-
-Contribution: 2021-05-19 00:00
-
-Contribution: 2021-05-19 00:01
-
-Contribution: 2021-05-20 00:00
-
-Contribution: 2021-05-20 00:01
-
-Contribution: 2021-05-20 00:02
-
-Contribution: 2021-05-20 00:03
-
-Contribution: 2021-05-20 00:04
-
-Contribution: 2021-05-20 00:05
-
-Contribution: 2021-05-25 00:00
-
-Contribution: 2021-05-25 00:01
-
-Contribution: 2021-05-25 00:02
-
-Contribution: 2021-05-27 00:00
-
-Contribution: 2021-05-27 00:01
-
-Contribution: 2021-05-27 00:02
-
-Contribution: 2021-05-27 00:03
-
-Contribution: 2021-05-27 00:04
-
-Contribution: 2021-05-27 00:05
-
+- [Themesberg](https://themesberg.com/)
+- [UPDIVISION](https://updivision.com)
